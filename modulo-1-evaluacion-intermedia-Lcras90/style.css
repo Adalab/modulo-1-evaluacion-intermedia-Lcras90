@@ -67,12 +67,10 @@
   .header .header-logo {
     margin: 0;
   }
-  .header .header-menu {
-    padding-right: 30;
-  }
+
   .main .main-text {
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 40%;
+    padding-right: 40%;
     font-size: 40px;
   }
 }
