@@ -9,8 +9,9 @@
 }
 .header {
   min-width: 100vw;
-  height: 20vh;
+  height: 90px;
   padding-top: 10px;
+  padding-bottom: 13px;
 }
 .header .header-logo {
   width: 155px;
@@ -43,12 +44,16 @@
 .main {
   background-color: var(--ColorBg);
   color: var(--Colortext);
-  height: 80vh;
+  font-family: var(--Font-family);
+  height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 .main .main-text {
+  font-size: 30px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 50px;
 }
