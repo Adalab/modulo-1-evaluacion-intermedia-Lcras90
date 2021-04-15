@@ -5,4 +5,50 @@
   --Colormenu: #4a4a4a;
 }
 * {
+  margin: 0;
+}
+.header {
+  min-width: 100vw;
+  height: 20vh;
+  padding-top: 10px;
+}
+.header .header-logo {
+  width: 155px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.header .header-menu {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--Font-family);
+}
+.header .header-blog {
+  padding-right: 20px;
+  text-decoration: none;
+  color: var(--Colormenu);
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.header .header-contact {
+  text-decoration: none;
+  color: var(--Colormenu);
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.main {
+  background-color: var(--ColorBg);
+  color: var(--Colortext);
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main .main-text {
 }
