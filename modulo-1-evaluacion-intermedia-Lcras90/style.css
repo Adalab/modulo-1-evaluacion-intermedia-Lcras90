@@ -48,6 +48,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
 }
 .main .main-text {
   font-size: 30px;
