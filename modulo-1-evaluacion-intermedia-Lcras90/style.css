@@ -8,14 +8,12 @@
   margin: 0;
 }
 .header {
-  min-width: 100vw;
   height: 90px;
   padding-top: 10px;
   padding-bottom: 13px;
 }
 .header .header-logo {
   width: 155px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,4 +54,25 @@
   text-align: center;
   padding-left: 30px;
   padding-right: 50px;
+}
+
+@media (min-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .header .header-logo {
+    margin: 0;
+  }
+  .header .header-menu {
+    padding-right: 30;
+  }
+  .main .main-text {
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 40px;
+  }
 }
