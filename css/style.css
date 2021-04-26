@@ -7,9 +7,21 @@
 * {
   margin: 0;
 }
+.body {
+  font-family: var(--Font-family);
+}
 .header {
-  height: 90px;
-  padding-top: 10px;
+  width: 100vw;
+  height: 117px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Colortext);
   padding-bottom: 13px;
 }
 .header .header-logo {
@@ -21,19 +33,22 @@
 }
 .header .header-menu {
   padding-top: 10px;
+  padding-right: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: var(--Font-family);
+  list-style: none;
+  padding-inline-start: 0px;
 }
 .header .header-blog {
-  padding-right: 20px;
+  padding: 5px 10px 5px 5px;
   text-decoration: none;
   color: var(--Colormenu);
   font-size: 16px;
   text-transform: uppercase;
 }
 .header .header-contact {
+  padding: 5px 10px 5px 5px;
   text-decoration: none;
   color: var(--Colormenu);
   font-size: 16px;
@@ -42,19 +57,19 @@
 .main {
   background-color: var(--ColorBg);
   color: var(--Colortext);
-  font-family: var(--Font-family);
-  height: 85vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-weight: bold;
+  /* margin-top: 20vw; */
 }
 .main .main-text {
   font-size: 30px;
   text-align: center;
-  padding-left: 30px;
-  padding-right: 50px;
+  word-spacing: 100rem;
+  text-transform: capitalize;
 }
 
 @media (min-width: 768px) {
